@@ -8,5 +8,5 @@ export default function Tick() {
         );
         ReactDOM.render(element, document.getElementById('root'));
     }
-    // Chaque seconde, nous appellons ReactDOM.render() depuis un callback passé à setInterval().
+    
     setInterval(Tick, 1000);    
