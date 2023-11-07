@@ -1,3 +1,11 @@
+import Mailbox from "./Mailbox";
+import { Messages } from "./messages";
+
 export default function UserGreeting(Props){
-    return <h1>Bienvenue</h1>
+    return(
+        <div>
+            <h1>Bienvenue</h1>
+            <Mailbox unreadMessages={Messages} />
+        </div>
+    ) 
 }

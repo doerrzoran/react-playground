@@ -1,11 +1,15 @@
 
 import './App.css';
-import Greeting from './Component/Greeting';
+import LoginControl from './Component/LoginControl';
+
+
 
 
 function App() {
   return (
-    <Greeting/>
+    <div>
+      <LoginControl/>
+    </div>
   );
 }
 

@@ -1,10 +1,17 @@
+import { Connect } from "./Connect";
 import GuestGreeting from "./GuestGreeting";
 import UserGreeting from "./UserGreeting";
 
 export default function Greeting(props) {
-    const isLoggedIn = props.isLoggedIn;
+    let isLoggedIn = props.isLoggedIn;
+
     if (isLoggedIn) {
       return <UserGreeting/>;
     }
-    return <GuestGreeting/>;
+    return(
+      <div>
+        <GuestGreeting/>
+      </div>
+    )
+
   }
