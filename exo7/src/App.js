@@ -1,10 +1,11 @@
 
 import './App.css';
-import UserGreeting from './Component/UserGreeting';
+import Greeting from './Component/Greeting';
+
 
 function App() {
   return (
-    <UserGreeting/>
+    <Greeting/>
   );
 }
 
